@@ -1,0 +1,7 @@
+sudo umount /dev/sdX. Форматируем в fat:
+sudo mkfs. vfat /dev/sdX #где sdX - ваша флешка (например sdb1). ...
+sudo mkfs.ext2 /dev/sdX. Форматируем в ext3:
+sudo mkfs.ext3 /dev/sdX. Форматируем в ext4:
+sudo mkfs.ext4 /dev/sdX. Форматируем в MSDOS:
+sudo mkfs.msdos /dev/sdX. Форматируем в ReiserFS:
+sudo mkfs.reiserfs /dev/sdX.
