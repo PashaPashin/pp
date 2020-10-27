@@ -1,0 +1,15 @@
+import random
+s = []
+for a in range(0 ,100):
+  print (a)
+  if a % 2 < 1:
+    print ('b')
+  elif a % 3 <2:
+    print ('c')
+  elif a % 4 <5:
+    print ('d')
+  elif a % 5 <2:
+    print ('e')
+  else:
+    print ('f')
+print ('s')
